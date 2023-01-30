@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: 'Kanit', sans-serif; */
+   background-color: lavender;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.section{
+    grid-template-columns: repeat(2,1fr);       
+ 
+    
+}
+.titles{
+  background-color: lightgray;
+  padding-top: 30px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+box-shadow: 3px 2px 3px lightgray;
+border-radius: 10px;
+}
+.maindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+   
+  padding-left: 95px;
+  padding-top: 40px;
+
+   
+    
+  
+}
+p{
+    font-weight: 800;
+}
+.imagebox{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.icons{
+    font-size: 40px;
+    color: darkblue;
+}
+.services{
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.titleone{
+    color: blue;
+  
+}
+.titletwo{
+    font-size: 30px;
+    font-weight: 300;
+}
+.text{
+    padding: 10px 20px;
+    
+}
